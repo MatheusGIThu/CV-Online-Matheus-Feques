@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="../Styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="about">
+    <div class="container"><!-- Container principal -->
+
+        <div class="about"><!-- Seção de introdução do contato -->
             <h1>Contato</h1>
             <p>Preencha o formulário abaixo para entrar em contato comigo.</p>
         </div>
 
-        <form action="#" method="post">
-            <input type="text" name="nome" placeholder="Nome" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <textarea name="mensagem" placeholder="Mensagem" required></textarea>
-            <div class="buttons">
-                <button type="submit">Enviar</button>
-                <Button onclick="location.href='../Index.html'"> Voltar</Button>
+        <form action="#" method="post"><!-- Formulário de contato -->
+            <input type="text" name="nome" placeholder="Nome" required><!-- Campo para nome -->
+            <input type="email" name="email" placeholder="Email" required><!-- Campo para email -->
+            <textarea name="mensagem" placeholder="Mensagem" required></textarea><!-- Campo para mensagem -->
+            
+            <div class="buttons"><!-- Botões do formulário -->
+                <button type="submit">Enviar</button><!-- Envia os dados do formulário -->
+                <button onclick="location.href='../Index.html'">Voltar</button><!-- Retorna à página inicial -->
             </div>
         </form>
+
     </div>
 </body>
+
 </html>
